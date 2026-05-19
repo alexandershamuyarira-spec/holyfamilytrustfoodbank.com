@@ -1,19 +1,12 @@
-/*
 
-Template 2106 Soft Landing
-
-http://www.tooplate.com/view/2106-soft-landing
-	
-*/
- 
   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans:ital,wght@0,400;0,600;1,400&display=swap');
 
 :root {
     color-scheme: light;
-    --bg: #eef4fb;
+    --bg: #eff1ff;
     --surface: #ffffff;
     --surface-soft: #f7fafd;
-    --text: #1f2937;
+    --text: #fffbfb;
     --muted: #52667a;
     --heading: #0f172a;
     --border: rgba(31, 41, 55, 0.08);
@@ -67,7 +60,7 @@ http://www.tooplate.com/view/2106-soft-landing
     font-family: 'Inter', sans-serif;
     font-weight: 700;
     line-height: 1.15;
-    color: var(--heading);
+    color: var(--text);
     margin-top: 0;
   }
 
@@ -85,7 +78,7 @@ http://www.tooplate.com/view/2106-soft-landing
   }
 
   p {
-    color: var(--muted);
+    color: var(--text);
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.9;
@@ -168,7 +161,7 @@ http://www.tooplate.com/view/2106-soft-landing
     --bg: #0b1120;
     --surface: #111827;
     --surface-soft: #17223b;
-    --text: #f8fafc;
+    --text: #000000;
     --muted: #94a3b8;
     --heading: #ffffff;
     --border: rgba(255, 255, 255, 0.08);
@@ -188,7 +181,7 @@ http://www.tooplate.com/view/2106-soft-landing
       --bg: #0b1120;
       --surface: #111827;
       --surface-soft: #17223b;
-      --text: #eceff4;
+      --text: #000000;
       --muted: #94a3b8;
       --heading: #ffffff;
       --border: rgba(255, 255, 255, 0.08);
@@ -560,14 +553,14 @@ border-top: 2px solid var(--primary-dark);
   .hero-headline {
     font-size: clamp(2.8rem, 5vw, 4rem);
     font-weight: 700;
-    color: #f8fafc;
+    color: #ffffff;
     margin-bottom: 22px;
     line-height: 1.05;
   }
 
   .hero-subheading {
-    font-size: 1.1rem;
-    color: rgba(248, 250, 252, 0.88);
+    font-size: 1.2rem;
+    color: rgba(255, 255, 255, 0.88);
     margin-bottom: 38px;
     line-height: 1.75;
     max-width: 720px;
@@ -856,7 +849,7 @@ border-top: 2px solid var(--primary-dark);
   #feature .nav-tabs>li.active>a:focus, 
   #feature .nav-tabs>li.active>a:hover {
     background: transparent;
-    color: #202020;
+    color: #999999;
     border-bottom: 3px solid #29ca8e;
   }
 
@@ -968,7 +961,7 @@ border-top: 2px solid var(--primary-dark);
   }
 
   #testimonial h1 {
-    color: #ffffff;
+    color: #000000;
   }
 
   .testimonial-image {
@@ -985,7 +978,7 @@ border-top: 2px solid var(--primary-dark);
   }
 
   .testimonial-info h3 {
-    color: #d9d9d9;
+    color: #0e0d0d;
     font-style: italic;
     margin-top: 5px;
   }
@@ -1017,7 +1010,7 @@ border-top: 2px solid var(--primary-dark);
   }
 
   .testimonial-item h4 {
-    color: #ffffff;
+    color: #070707;
     font-size: 1rem;
     margin-bottom: 4px;
   }
@@ -1031,7 +1024,7 @@ border-top: 2px solid var(--primary-dark);
   .owl-carousel .owl-item img,
   .testimonial-item img,
   .testimonial-item h4 {
-    color: #d9d9d9;
+    color: #080808;
     display: inline-block;
     vertical-align: top;
   }
@@ -2577,7 +2570,7 @@ border-top: 2px solid var(--primary-dark);
   .service-content h3 {
     font-size: 22px;
     font-weight: 600;
-    color: #202020;
+    color: #000000;
     margin-bottom: 15px;
     transition: color 0.3s ease;
   }
@@ -2589,13 +2582,13 @@ border-top: 2px solid var(--primary-dark);
   .service-content p {
     font-size: 15px;
     line-height: 1.6;
-    color: #666666;
+    color: #000000;
     margin: 0;
     transition: color 0.3s ease;
   }
 
   .service-card:hover .service-content p {
-    color: #555555;
+    color: #050505;
   }
 
   /* Responsive adjustments */
@@ -2921,7 +2914,7 @@ nav{
  padding: 15px;
 }
 nav a{
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none;
   margin-right: 20px;
   font-size: 18px;
