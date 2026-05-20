@@ -450,7 +450,7 @@ border-top: 2px solid var(--primary-dark);
     height: 42px;
     border: 1px solid rgba(255, 255, 255, 0.18);
     background: rgba(255, 255, 255, 0.08);
-    color: var(--navbar-text);
+    color: var(--text);
     border-radius: 50%;
     display: inline-flex;
     align-items: center;
