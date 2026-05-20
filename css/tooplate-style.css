@@ -179,10 +179,10 @@
   @media (prefers-color-scheme: dark) {
     :root {
       --bg: #0b1120;
-      --surface: #111827;
-      --surface-soft: #17223b;
+    --surface: #1acf6b;
+    --surface-soft:#f7fafd;
       --text: #000000;
-      --muted: #94a3b8;
+      --muted: #070707;
       --heading: #000000;
       --border: rgba(255, 255, 255, 0.08);
       --navbar-bg: rgba(15, 23, 42, 0.92);
